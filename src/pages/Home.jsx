@@ -3,6 +3,8 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { BsArrowRight } from 'react-icons/bs'
 
+import About from '../components/About' 
+
 import heroImage01 from '../assets/images/hero-img01.png'
 import heroImage02 from '../assets/images/hero-img02.png'
 import heroImage03 from '../assets/images/hero-img03.png'
@@ -100,10 +102,20 @@ const Home = () => {
             <DetailsCard title={'Find a Location'} description={'Know the locations where we provide our services.'} route={'/doctors'} icon={icon02}/>
             <DetailsCard title={'Book Appointment'} description={'We provide best services on your convinuent time. Our health system offers unmatched, expert health care in all possible manner.'} route={'/doctors'} icon={icon03}/>
           </div>
-
         </div>
       </section>
 
+      {/* About Section */}
+      <About />
+
+      {/* Services section */}
+      <section>
+        <div className="container">
+          <div className='xl:w-[470px] mx-auto'>
+            <h2 className='heading text-center'>Our medical services</h2>
+          </div>
+        </div>
+      </section>
     </>
   )
 }
