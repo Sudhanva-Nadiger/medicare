@@ -3,7 +3,8 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { BsArrowRight } from 'react-icons/bs'
 
-import About from '../components/About' 
+import About from '../components/About'
+import Services from '../components/Services'
 
 import heroImage01 from '../assets/images/hero-img01.png'
 import heroImage02 from '../assets/images/hero-img02.png'
@@ -34,6 +35,7 @@ const DetailsCard = ({ title, description, route, icon }) => {
         <h2 className='text-[26px] leading-9 text-headingColor font-[700] text-center'>{title}</h2>
         <p className='text-[16px] leading-7 text-textColor font-[400] mt-4 text-center'>{description}</p>
 
+        {/* Make this a component */}
         <Link to={route} className='w-[44px] h-[44px] rounded-full border border-solid border-[#181A1E] mt-[30px] mx-auto flex items-center justify-center group  hover:bg-primaryColor hover:border-none'>
           <BsArrowRight className='group-hover:text-white w-6 h-5' />
         </Link>
@@ -109,13 +111,7 @@ const Home = () => {
       <About />
 
       {/* Services section */}
-      <section>
-        <div className="container">
-          <div className='xl:w-[470px] mx-auto'>
-            <h2 className='heading text-center'>Our medical services</h2>
-          </div>
-        </div>
-      </section>
+      <Services />
     </>
   )
 }
