@@ -1,4 +1,3 @@
-import React from 'react'
 import ServicesList from './ServicesList'
 
 const index = () => {

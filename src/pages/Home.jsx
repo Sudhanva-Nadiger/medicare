@@ -1,10 +1,10 @@
 /* eslint-disable react/prop-types */
-import React from 'react'
 import { Link } from 'react-router-dom'
 import { BsArrowRight } from 'react-icons/bs'
 
 import About from '../components/About'
 import Services from '../components/Services'
+import Features from '../components/Features'
 
 import heroImage01 from '../assets/images/hero-img01.png'
 import heroImage02 from '../assets/images/hero-img02.png'
@@ -112,6 +112,9 @@ const Home = () => {
 
       {/* Services section */}
       <Services />
+
+      {/* Features Section */}
+      <Features />
     </>
   )
 }
