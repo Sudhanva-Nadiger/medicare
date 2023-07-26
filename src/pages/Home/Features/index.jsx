@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom'
 
-import featureImg from '../../assets/images/feature-img.png'
-import videoIcon from '../../assets/images/video-icon.png'
-import avatarIcon from '../../assets/images/avatar-icon.png' 
+import featureImg from '../../../assets/images/feature-img.png'
+import videoIcon from '../../../assets/images/video-icon.png'
+import avatarIcon from '../../../assets/images/avatar-icon.png' 
 
 const features = [
     "1. Schedule the appointment directly.",

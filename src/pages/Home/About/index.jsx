@@ -1,7 +1,5 @@
-import React from 'react'
-
-import aboutImage from '../../assets/images/about.png'
-import aboutCardImage from '../../assets/images/about-card.png' 
+import aboutImage from '../../../assets/images/about.png'
+import aboutCardImage from '../../../assets/images/about-card.png' 
 import { Link } from 'react-router-dom'
 
 const index = () => {

@@ -1,5 +1,5 @@
 
-import { services } from '../../assets/data/services'
+import { services } from '../../../assets/data/services'
 import ServiceCard from './ServiceCard'
 
 const ServicesList = () => {
